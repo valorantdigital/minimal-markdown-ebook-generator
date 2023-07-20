@@ -1,0 +1,61 @@
+site_name: Learn A Little About SQL Development | Software Shinobi
+
+docs_dir: 'book-content'
+
+theme:
+
+    name: readthedocs
+
+    highlightjs: true
+
+    hljs_languages:
+
+        - yaml
+        - rust
+
+plugins:
+    - with-pdf:
+    
+        author:
+            "Software Shinobi"
+            
+        copyright:
+            "Learn Software Development With Software Shinobi!"
+            
+        #
+        #cover: false
+        #back_cover: true
+        #cover_title: TITLE TEXT
+        #cover_subtitle: SUBTITLE TEXT
+        #custom_template_path: TEMPLATES PATH
+        #
+        #toc_title: TOC TITLE TEXT
+        #heading_shift: false
+        toc_level:
+            2
+        #ordered_chapter_level: 2
+        #excludes_children:
+        #    - 'release-notes/:upgrading'
+        #    - 'release-notes/:changelog'
+        #
+        #exclude_pages:
+        #    - 'bugs/'
+        #    - 'appendix/contribute/'
+        #convert_iframe:
+        #    - src: IFRAME SRC
+        #      img: POSTER IMAGE URL
+        #      text: ALTERNATE TEXT
+        #    - src: ...
+        #two_columns_level: 3
+        #
+        #render_js: true
+        #headless_chrome_path: headless-chromium
+        #
+        output_path: sql-things/free-ebooks/learn-a-little-about-sql-development-software-shinobi.pdf
+
+        #enabled_if_env: ENABLE_PDF_EXPORT
+
+        #
+        #debug_html: true
+        #show_anchors: true
+        #verbose: true
